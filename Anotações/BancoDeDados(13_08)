@@ -1,0 +1,31 @@
+-> Banco de dados é um conjunto de dados armazenados com contexto
+
+
+------------------- Sistemas de Arquivos -------------------
+-> Problemas:
+    - Arquivos diferentes (que compõem a mesma informação)
+      em formatos diferentes dificultam a consulta de informações por sistemas
+
+    - Pode haver Inconsistência e Redundância de Dados
+    - As atualizações de dados deve ocorrer
+
+------------------- Instâncias e Esquemas -------------------
+-> Instância:
+    - O conjunto de informações contidas em um BD, em um dado momento,
+      é uma instância
+    - É tipo uma fotografia do momento daquele banco
+    - São todas as informações presentes no banco naquele determinado momento
+
+-> Esquema:
+    - O projeto geral do banco de dados é um esquema
+    - É só a projeção do banco
+
+------------------- Instâncias e Esquemas -------------------
+-> Modelos de Dados:
+    - É um conjunto de ferramentas conceituais usadas para a descrição de dados,
+      relacionamentos entre dados, semântica de dados e regras de consistência.
+
+-> Tipos:
+    - Modelos Lógicos com base em objetos
+    - Modelos Lógicos com base em registros
+    - Modelos Fisícos

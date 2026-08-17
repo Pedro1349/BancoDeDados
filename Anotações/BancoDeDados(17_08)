@@ -1,0 +1,26 @@
+OBS: Site para treinar Git: https://learngitbranching.js.org/?locale=pt_BR
+
+------------------------------- Revisão Git -------------------------------
+-> Git clone url_repo:
+    - clona o repositório remoto para o pc
+-> Git pull:
+    - faz o download do conteúdo do repositório remoto dá update no seu branch local para ficar igual
+-> Git add archive:
+    - adiciona um arquivo ou modificação no staging
+-> Git commit -m "message":
+    - envia a modificação para o repositório local
+-> Git push:
+    - envia a modificação para o repositório remoto
+-> Git switch -c nome_branch:
+    - Cria um novo branch e troca para ele
+-> Git switch nome_branch:
+    - Troca para outro branch
+-> git config --local user.name "Name"
+    - Troca o nome do usuário que fez a contribuição
+-> git config --local user.email "email@email.com"
+    - Troca o email do usuário que fez a contribuição
+
+------------------------------- Versões ------------------------------- 
+v 1.1.1 -> v major.minor.patch
+
+
