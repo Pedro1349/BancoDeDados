@@ -1,0 +1,45 @@
+-------------------------- Conceitos -------------------------
+-> Entidade:
+    - É um objeto que existe e é distinguível dos outros objetos
+    - Pode ser concreto ou abstrato
+    - Instâncias do mesmo tipo são agrupadas sob uma mesma entidade
+    - Cada entidade é representada por um conjunto de atributos
+
+-> Atributos:
+    - São propriedades em comum de instâncias de uma entidade
+    - Cada atributo possui um domínio, que é um conjunto de valores usados para representa-lo
+    - Tipos de atributos:
+        > Simples: 
+            >> Não é uma informação composta (ex: idade, nome)
+        > Composto:
+            >> Contém sub-atributos que compõem o atributo (ex: endereço)
+        > Simplesmente valorados:
+            >> Têm um único valor para uma instância de uma entidade (ex: idade)
+        > Multivalorados:
+            >> Possuem vários valores numa instância de uma entidade (ex: Telefone: residencial, comercial)
+
+-> Relacionamentos:
+    - São associações entre diversas entidades (ex: FILME possui ATORES)
+    - Um relacionamento pode possuir atributos
+    - Um relacionamento pode ser constituído por apenas 1 entidade (Auto-relacionamento)
+    - Um relacionamento pode ser constituído por mais de 2 entidades (relacionamento não-binário). Pode ser substituído por um conjunto de relacionamentos binários !Não é recomendável de fazer!
+
+-> Cardinalidades:
+    - Expressão a quantidade de instâncias de entidades que são associoados em um relacionamento
+        > Um-para-um:
+            >> Relacionamento que une uma instância de algo com outra instância de outra coisa (ex: pessoa e conta de banco)
+        > Muitos-para-um:
+            >> Relacionamento que une várias instâncias de algo com outra instância de outra coisa (ex: pessoa e casa)
+        > Um-para-muitos:
+            >> Relacionamento que une uma instância de algo com várias instâncias de outra coisa (ex: )
+        > Muitos-para-muitos 
+            >> Relacionamento que une várias instâncias de algo com com várias instâncias de outra coisa  (ex: )
+
+ver a partir do slide 15
+
+-------------------------- Representações em Diagramas -------------------------
+
+-> Entidades: retângulos
+-> Atributos: elipses
+-> Relacionamentos: losangos
+-> linhas: ligam atributos a entidades e relacionamentos
